@@ -1,0 +1,1140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Mad Max - MFP Armor F">
+        <DataFolder>MadMaxArmor</DataFolder>
+        <SourceFile>MFPArmorF.nif</SourceFile>
+        <OutputPath>Meshes\Armor\MadMaxArmor</OutputPath>
+        <OutputFile GenWeights="false">MFPArmorF</OutputFile>
+        <Shape target="Belt">Belt</Shape>
+        <Shape target="Belt_Metal">Belt_Metal</Shape>
+        <Shape target="Boots">Boots</Shape>
+        <Shape target="Boots_Badge">Boots_Badge</Shape>
+        <Shape target="Boots_Straps">Boots_Straps</Shape>
+        <Shape target="Boots_Straps_Metal">Boots_Straps_Metal</Shape>
+        <Shape target="CBBE" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="LeatherPantsF">LeatherPantsF</Shape>
+        <Shape target="MFPJacketF">MFPJacketF</Shape>
+        <Shape target="Shotgun_Barrel">Shotgun_Barrel</Shape>
+        <Shape target="Shotgun_Holster">Shotgun_Holster</Shape>
+        <Shape target="Shotgun_Receiver">Shotgun_Receiver</Shape>
+        <Shape target="Shotgun_Receiver_2">Shotgun_Receiver_2</Shape>
+        <Shape target="Shotgun_Stock">Shotgun_Stock</Shape>
+        <Shape target="Shotgun_Strap">Shotgun_Strap</Shape>
+        <Slider name="Breasts" invert="false" default="0">
+            <Data name="MFPJacketFBreasts" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreasts</Data>
+        </Slider>
+        <Slider name="BreastsCleavage" invert="false" default="0">
+            <Data name="MFPJacketFBreastsCleavage" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastsCleavage</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" default="0">
+            <Data name="MFPJacketFBreastsGone" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" default="0">
+            <Data name="MFPJacketFBreastsNewSH" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" default="0">
+            <Data name="CBBEBreastsSmall" target="CBBE" local="true">MFPArmorF.osd\CBBEBreastsSmall</Data>
+            <Data name="MFPJacketFBreastsSmall" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastsSmall</Data>
+            <Data name="LeatherPantsFBreastsSmall" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFBreastsSmall</Data>
+            <Data name="Shotgun_StrapBreastsSmall" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapBreastsSmall</Data>
+            <Data name="BeltBreastsSmall" target="Belt" local="true">MFPArmorF.osd\BeltBreastsSmall</Data>
+            <Data name="Belt_MetalBreastsSmall" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" default="0">
+            <Data name="CBBEBreastsSmall2" target="CBBE" local="true">MFPArmorF.osd\CBBEBreastsSmall2</Data>
+            <Data name="MFPJacketFBreastsSmall2" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastsSmall2</Data>
+            <Data name="LeatherPantsFBreastsSmall2" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFBreastsSmall2</Data>
+            <Data name="Shotgun_StrapBreastsSmall2" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapBreastsSmall2</Data>
+            <Data name="BeltBreastsSmall2" target="Belt" local="true">MFPArmorF.osd\BeltBreastsSmall2</Data>
+            <Data name="Belt_MetalBreastsSmall2" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" default="0">
+            <Data name="MFPJacketFBreastsTogether" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" default="0">
+            <Data name="MFPJacketFBreastTopSlope" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" default="0">
+            <Data name="CBBEBreastWidth" target="CBBE" local="true">MFPArmorF.osd\CBBEBreastWidth</Data>
+            <Data name="MFPJacketFBreastWidth" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastWidth</Data>
+            <Data name="Shotgun_StrapBreastWidth" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" default="0">
+            <Data name="MFPJacketFButt" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFButt</Data>
+            <Data name="LeatherPantsFButt" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFButt</Data>
+            <Data name="Shotgun_StrapButt" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapButt</Data>
+            <Data name="BeltButt" target="Belt" local="true">MFPArmorF.osd\BeltButt</Data>
+            <Data name="Belt_MetalButt" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalButt</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" default="0">
+            <Data name="MFPJacketFButtCrack" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFButtCrack</Data>
+            <Data name="LeatherPantsFButtCrack" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFButtCrack</Data>
+            <Data name="Shotgun_StrapButtCrack" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapButtCrack</Data>
+            <Data name="BeltButtCrack" target="Belt" local="true">MFPArmorF.osd\BeltButtCrack</Data>
+        </Slider>
+        <Slider name="ButtNew" invert="false" default="0">
+            <Data name="MFPJacketFButtNew" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFButtNew</Data>
+            <Data name="LeatherPantsFButtNew" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFButtNew</Data>
+            <Data name="Shotgun_StrapButtNew" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapButtNew</Data>
+            <Data name="BeltButtNew" target="Belt" local="true">MFPArmorF.osd\BeltButtNew</Data>
+            <Data name="Belt_MetalButtNew" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalButtNew</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" default="0">
+            <Data name="MFPJacketFButtShape2" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFButtShape2</Data>
+            <Data name="LeatherPantsFButtShape2" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFButtShape2</Data>
+            <Data name="Shotgun_StrapButtShape2" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapButtShape2</Data>
+            <Data name="BeltButtShape2" target="Belt" local="true">MFPArmorF.osd\BeltButtShape2</Data>
+            <Data name="Belt_MetalButtShape2" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" default="0">
+            <Data name="MFPJacketFButtSmall" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFButtSmall</Data>
+            <Data name="LeatherPantsFButtSmall" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFButtSmall</Data>
+            <Data name="Shotgun_StrapButtSmall" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapButtSmall</Data>
+            <Data name="BeltButtSmall" target="Belt" local="true">MFPArmorF.osd\BeltButtSmall</Data>
+            <Data name="Belt_MetalButtSmall" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" default="0">
+            <Data name="CBBECalfSize" target="CBBE" local="true">MFPArmorF.osd\CBBECalfSize</Data>
+            <Data name="LeatherPantsFCalfSize" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFCalfSize</Data>
+            <Data name="BootsCalfSize" target="Boots" local="true">MFPArmorF.osd\BootsCalfSize</Data>
+            <Data name="Boots_BadgeCalfSize" target="Boots_Badge" local="true">MFPArmorF.osd\Boots_BadgeCalfSize</Data>
+            <Data name="Boots_StrapsCalfSize" target="Boots_Straps" local="true">MFPArmorF.osd\Boots_StrapsCalfSize</Data>
+            <Data name="Boots_Straps_MetalCalfSize" target="Boots_Straps_Metal" local="true">MFPArmorF.osd\Boots_Straps_MetalCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" default="0">
+            <Data name="CBBECalfSmooth" target="CBBE" local="true">MFPArmorF.osd\CBBECalfSmooth</Data>
+            <Data name="LeatherPantsFCalfSmooth" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFCalfSmooth</Data>
+            <Data name="BootsCalfSmooth" target="Boots" local="true">MFPArmorF.osd\BootsCalfSmooth</Data>
+            <Data name="Boots_BadgeCalfSmooth" target="Boots_Badge" local="true">MFPArmorF.osd\Boots_BadgeCalfSmooth</Data>
+            <Data name="Boots_StrapsCalfSmooth" target="Boots_Straps" local="true">MFPArmorF.osd\Boots_StrapsCalfSmooth</Data>
+            <Data name="Boots_Straps_MetalCalfSmooth" target="Boots_Straps_Metal" local="true">MFPArmorF.osd\Boots_Straps_MetalCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" default="0">
+            <Data name="CBBEChestDepth" target="CBBE" local="true">MFPArmorF.osd\CBBEChestDepth</Data>
+            <Data name="MFPJacketFChestDepth" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFChestDepth</Data>
+            <Data name="LeatherPantsFChestDepth" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFChestDepth</Data>
+            <Data name="Shotgun_StrapChestDepth" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapChestDepth</Data>
+            <Data name="BeltChestDepth" target="Belt" local="true">MFPArmorF.osd\BeltChestDepth</Data>
+            <Data name="Belt_MetalChestDepth" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" default="0">
+            <Data name="CBBEChestWidth" target="CBBE" local="true">MFPArmorF.osd\CBBEChestWidth</Data>
+            <Data name="MFPJacketFChestWidth" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFChestWidth</Data>
+            <Data name="LeatherPantsFChestWidth" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFChestWidth</Data>
+            <Data name="Shotgun_StrapChestWidth" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapChestWidth</Data>
+            <Data name="BeltChestWidth" target="Belt" local="true">MFPArmorF.osd\BeltChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" default="0">
+            <Data name="CBBEChubbyArms" target="CBBE" local="true">MFPArmorF.osd\CBBEChubbyArms</Data>
+            <Data name="MFPJacketFChubbyArms" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" default="0">
+            <Data name="MFPJacketFChubbyButt" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFChubbyButt</Data>
+            <Data name="LeatherPantsFChubbyButt" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFChubbyButt</Data>
+            <Data name="Shotgun_StrapChubbyButt" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapChubbyButt</Data>
+            <Data name="BeltChubbyButt" target="Belt" local="true">MFPArmorF.osd\BeltChubbyButt</Data>
+            <Data name="Belt_MetalChubbyButt" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" default="0">
+            <Data name="CBBEChubbyLegs" target="CBBE" local="true">MFPArmorF.osd\CBBEChubbyLegs</Data>
+            <Data name="MFPJacketFChubbyLegs" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFChubbyLegs</Data>
+            <Data name="LeatherPantsFChubbyLegs" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFChubbyLegs</Data>
+            <Data name="Shotgun_StrapChubbyLegs" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapChubbyLegs</Data>
+            <Data name="BootsChubbyLegs" target="Boots" local="true">MFPArmorF.osd\BootsChubbyLegs</Data>
+            <Data name="Boots_BadgeChubbyLegs" target="Boots_Badge" local="true">MFPArmorF.osd\Boots_BadgeChubbyLegs</Data>
+            <Data name="Boots_StrapsChubbyLegs" target="Boots_Straps" local="true">MFPArmorF.osd\Boots_StrapsChubbyLegs</Data>
+            <Data name="Boots_Straps_MetalChubbyLegs" target="Boots_Straps_Metal" local="true">MFPArmorF.osd\Boots_Straps_MetalChubbyLegs</Data>
+            <Data name="BeltChubbyLegs" target="Belt" local="true">MFPArmorF.osd\BeltChubbyLegs</Data>
+            <Data name="Belt_MetalChubbyLegs" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" default="0">
+            <Data name="MFPJacketFChubbyWaist" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFChubbyWaist</Data>
+            <Data name="LeatherPantsFChubbyWaist" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFChubbyWaist</Data>
+            <Data name="Shotgun_StrapChubbyWaist" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapChubbyWaist</Data>
+            <Data name="BeltChubbyWaist" target="Belt" local="true">MFPArmorF.osd\BeltChubbyWaist</Data>
+            <Data name="Belt_MetalChubbyWaist" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" default="0">
+            <Data name="MFPJacketFCrotchBack" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFCrotchBack</Data>
+            <Data name="LeatherPantsFCrotchBack" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFCrotchBack</Data>
+            <Data name="Shotgun_StrapCrotchBack" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapCrotchBack</Data>
+            <Data name="BeltCrotchBack" target="Belt" local="true">MFPArmorF.osd\BeltCrotchBack</Data>
+            <Data name="Belt_MetalCrotchBack" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" default="0">
+            <Data name="CBBEDoubleMelon" target="CBBE" local="true">MFPArmorF.osd\CBBEDoubleMelon</Data>
+            <Data name="MFPJacketFDoubleMelon" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFDoubleMelon</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" default="0">
+            <Data name="MFPJacketFGroin" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFGroin</Data>
+            <Data name="LeatherPantsFGroin" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFGroin</Data>
+            <Data name="Shotgun_StrapGroin" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapGroin</Data>
+            <Data name="BeltGroin" target="Belt" local="true">MFPArmorF.osd\BeltGroin</Data>
+            <Data name="Belt_MetalGroin" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalGroin</Data>
+        </Slider>
+        <Slider name="HipBack" invert="false" default="0">
+            <Data name="MFPJacketFHipBack" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFHipBack</Data>
+            <Data name="LeatherPantsFHipBack" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFHipBack</Data>
+            <Data name="Shotgun_StrapHipBack" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapHipBack</Data>
+            <Data name="BeltHipBack" target="Belt" local="true">MFPArmorF.osd\BeltHipBack</Data>
+            <Data name="Belt_MetalHipBack" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalHipBack</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" default="0">
+            <Data name="MFPJacketFHipBone" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFHipBone</Data>
+            <Data name="LeatherPantsFHipBone" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFHipBone</Data>
+            <Data name="Shotgun_StrapHipBone" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapHipBone</Data>
+            <Data name="BeltHipBone" target="Belt" local="true">MFPArmorF.osd\BeltHipBone</Data>
+            <Data name="Belt_MetalHipBone" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalHipBone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" default="0">
+            <Data name="MFPJacketFHips" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFHips</Data>
+            <Data name="LeatherPantsFHips" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFHips</Data>
+            <Data name="Shotgun_StrapHips" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapHips</Data>
+            <Data name="BeltHips" target="Belt" local="true">MFPArmorF.osd\BeltHips</Data>
+            <Data name="Belt_MetalHips" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" default="0">
+            <Data name="MFPJacketFHipUpperWidth" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFHipUpperWidth</Data>
+            <Data name="LeatherPantsFHipUpperWidth" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFHipUpperWidth</Data>
+            <Data name="Shotgun_StrapHipUpperWidth" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapHipUpperWidth</Data>
+            <Data name="BeltHipUpperWidth" target="Belt" local="true">MFPArmorF.osd\BeltHipUpperWidth</Data>
+            <Data name="Belt_MetalHipUpperWidth" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" default="0">
+            <Data name="CBBEKneeHeight" target="CBBE" local="true">MFPArmorF.osd\CBBEKneeHeight</Data>
+            <Data name="LeatherPantsFKneeHeight" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFKneeHeight</Data>
+            <Data name="Shotgun_StrapKneeHeight" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapKneeHeight</Data>
+            <Data name="BootsKneeHeight" target="Boots" local="true">MFPArmorF.osd\BootsKneeHeight</Data>
+            <Data name="Boots_BadgeKneeHeight" target="Boots_Badge" local="true">MFPArmorF.osd\Boots_BadgeKneeHeight</Data>
+            <Data name="Boots_StrapsKneeHeight" target="Boots_Straps" local="true">MFPArmorF.osd\Boots_StrapsKneeHeight</Data>
+            <Data name="Boots_Straps_MetalKneeHeight" target="Boots_Straps_Metal" local="true">MFPArmorF.osd\Boots_Straps_MetalKneeHeight</Data>
+        </Slider>
+        <Slider name="LegShape" invert="false" default="0">
+            <Data name="CBBELegShape" target="CBBE" local="true">MFPArmorF.osd\CBBELegShape</Data>
+            <Data name="LeatherPantsFLegShape" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFLegShape</Data>
+            <Data name="Shotgun_StrapLegShape" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapLegShape</Data>
+            <Data name="BootsLegShape" target="Boots" local="true">MFPArmorF.osd\BootsLegShape</Data>
+            <Data name="Boots_BadgeLegShape" target="Boots_Badge" local="true">MFPArmorF.osd\Boots_BadgeLegShape</Data>
+            <Data name="Boots_StrapsLegShape" target="Boots_Straps" local="true">MFPArmorF.osd\Boots_StrapsLegShape</Data>
+            <Data name="Boots_Straps_MetalLegShape" target="Boots_Straps_Metal" local="true">MFPArmorF.osd\Boots_Straps_MetalLegShape</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" default="0">
+            <Data name="CBBELegsThin" target="CBBE" local="true">MFPArmorF.osd\CBBELegsThin</Data>
+            <Data name="MFPJacketFLegsThin" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFLegsThin</Data>
+            <Data name="LeatherPantsFLegsThin" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFLegsThin</Data>
+            <Data name="Shotgun_StrapLegsThin" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapLegsThin</Data>
+            <Data name="BootsLegsThin" target="Boots" local="true">MFPArmorF.osd\BootsLegsThin</Data>
+            <Data name="Boots_BadgeLegsThin" target="Boots_Badge" local="true">MFPArmorF.osd\Boots_BadgeLegsThin</Data>
+            <Data name="Boots_StrapsLegsThin" target="Boots_Straps" local="true">MFPArmorF.osd\Boots_StrapsLegsThin</Data>
+            <Data name="Boots_Straps_MetalLegsThin" target="Boots_Straps_Metal" local="true">MFPArmorF.osd\Boots_Straps_MetalLegsThin</Data>
+            <Data name="BeltLegsThin" target="Belt" local="true">MFPArmorF.osd\BeltLegsThin</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" default="0">
+            <Data name="MFPJacketFNipBGone" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFNipBGone</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" default="0">
+            <Data name="MFPJacketFNippleAreola" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" default="0">
+            <Data name="MFPJacketFNippleDistance" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" default="0">
+            <Data name="MFPJacketFNippleDown" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFNippleDown</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" default="0">
+            <Data name="MFPJacketFNippleLength" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFNippleLength</Data>
+        </Slider>
+        <Slider name="NipplePerk2" invert="false" default="0">
+            <Data name="MFPJacketFNipplePerk2" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFNipplePerk2</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" default="0">
+            <Data name="MFPJacketFNipplePerkiness" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" default="0">
+            <Data name="MFPJacketFNippleSize" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFNippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" default="0">
+            <Data name="MFPJacketFNippleTip" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFNippleTip</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" default="0">
+            <Data name="MFPJacketFNippleUp" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" default="0">
+            <Data name="MFPJacketFPregnancyBelly" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFPregnancyBelly</Data>
+            <Data name="LeatherPantsFPregnancyBelly" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFPregnancyBelly</Data>
+            <Data name="Shotgun_StrapPregnancyBelly" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapPregnancyBelly</Data>
+            <Data name="BeltPregnancyBelly" target="Belt" local="true">MFPArmorF.osd\BeltPregnancyBelly</Data>
+            <Data name="Belt_MetalPregnancyBelly" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" default="0">
+            <Data name="MFPJacketFPushUp" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFPushUp</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" default="0">
+            <Data name="MFPJacketFRoundAss" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFRoundAss</Data>
+            <Data name="LeatherPantsFRoundAss" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFRoundAss</Data>
+            <Data name="Shotgun_StrapRoundAss" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapRoundAss</Data>
+            <Data name="BeltRoundAss" target="Belt" local="true">MFPArmorF.osd\BeltRoundAss</Data>
+            <Data name="Belt_MetalRoundAss" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" default="0">
+            <Data name="CBBEShoulderSmooth" target="CBBE" local="true">MFPArmorF.osd\CBBEShoulderSmooth</Data>
+            <Data name="MFPJacketFShoulderSmooth" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" default="0">
+            <Data name="CBBEShoulderTweak" target="CBBE" local="true">MFPArmorF.osd\CBBEShoulderTweak</Data>
+            <Data name="MFPJacketFShoulderTweak" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" default="0">
+            <Data name="CBBEShoulderWidth" target="CBBE" local="true">MFPArmorF.osd\CBBEShoulderWidth</Data>
+            <Data name="MFPJacketFShoulderWidth" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" default="0">
+            <Data name="CBBESlimThighs" target="CBBE" local="true">MFPArmorF.osd\CBBESlimThighs</Data>
+            <Data name="MFPJacketFSlimThighs" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFSlimThighs</Data>
+            <Data name="LeatherPantsFSlimThighs" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFSlimThighs</Data>
+            <Data name="Shotgun_StrapSlimThighs" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapSlimThighs</Data>
+            <Data name="BootsSlimThighs" target="Boots" local="true">MFPArmorF.osd\BootsSlimThighs</Data>
+            <Data name="Boots_BadgeSlimThighs" target="Boots_Badge" local="true">MFPArmorF.osd\Boots_BadgeSlimThighs</Data>
+            <Data name="Boots_StrapsSlimThighs" target="Boots_Straps" local="true">MFPArmorF.osd\Boots_StrapsSlimThighs</Data>
+            <Data name="Boots_Straps_MetalSlimThighs" target="Boots_Straps_Metal" local="true">MFPArmorF.osd\Boots_Straps_MetalSlimThighs</Data>
+            <Data name="BeltSlimThighs" target="Belt" local="true">MFPArmorF.osd\BeltSlimThighs</Data>
+            <Data name="Belt_MetalSlimThighs" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" default="0">
+            <Data name="MFPJacketFSternumDepth" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" default="0">
+            <Data name="MFPJacketFSternumHeight" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFSternumHeight</Data>
+            <Data name="Shotgun_StrapSternumHeight" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" default="0">
+            <Data name="MFPJacketFThighs" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFThighs</Data>
+            <Data name="LeatherPantsFThighs" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFThighs</Data>
+            <Data name="Shotgun_StrapThighs" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapThighs</Data>
+            <Data name="BootsThighs" target="Boots" local="true">MFPArmorF.osd\BootsThighs</Data>
+            <Data name="Boots_StrapsThighs" target="Boots_Straps" local="true">MFPArmorF.osd\Boots_StrapsThighs</Data>
+            <Data name="BeltThighs" target="Belt" local="true">MFPArmorF.osd\BeltThighs</Data>
+            <Data name="Belt_MetalThighs" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" default="0">
+            <Data name="MFPJacketFTummyTuck" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFTummyTuck</Data>
+            <Data name="LeatherPantsFTummyTuck" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFTummyTuck</Data>
+            <Data name="Shotgun_StrapTummyTuck" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapTummyTuck</Data>
+            <Data name="BeltTummyTuck" target="Belt" local="true">MFPArmorF.osd\BeltTummyTuck</Data>
+            <Data name="Belt_MetalTummyTuck" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalTummyTuck</Data>
+        </Slider>
+        <Slider name="VanillaFo4" invert="false" default="0">
+            <Data name="CBBEVanillaFo4" target="CBBE" local="true">MFPArmorF.osd\CBBEVanillaFo4</Data>
+            <Data name="MFPJacketFVanillaFo4" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFVanillaFo4</Data>
+            <Data name="LeatherPantsFVanillaFo4" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFVanillaFo4</Data>
+            <Data name="Shotgun_StrapVanillaFo4" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapVanillaFo4</Data>
+            <Data name="BootsVanillaFo4" target="Boots" local="true">MFPArmorF.osd\BootsVanillaFo4</Data>
+            <Data name="Boots_BadgeVanillaFo4" target="Boots_Badge" local="true">MFPArmorF.osd\Boots_BadgeVanillaFo4</Data>
+            <Data name="Boots_StrapsVanillaFo4" target="Boots_Straps" local="true">MFPArmorF.osd\Boots_StrapsVanillaFo4</Data>
+            <Data name="Boots_Straps_MetalVanillaFo4" target="Boots_Straps_Metal" local="true">MFPArmorF.osd\Boots_Straps_MetalVanillaFo4</Data>
+            <Data name="BeltVanillaFo4" target="Belt" local="true">MFPArmorF.osd\BeltVanillaFo4</Data>
+            <Data name="Belt_MetalVanillaFo4" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalVanillaFo4</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" default="0">
+            <Data name="MFPJacketFWaist" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFWaist</Data>
+            <Data name="LeatherPantsFWaist" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFWaist</Data>
+            <Data name="Shotgun_StrapWaist" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapWaist</Data>
+            <Data name="BeltWaist" target="Belt" local="true">MFPArmorF.osd\BeltWaist</Data>
+            <Data name="Belt_MetalWaist" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" default="0">
+            <Data name="MFPJacketFWaistHeight" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFWaistHeight</Data>
+            <Data name="LeatherPantsFWaistHeight" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFWaistHeight</Data>
+            <Data name="Shotgun_StrapWaistHeight" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapWaistHeight</Data>
+            <Data name="BeltWaistHeight" target="Belt" local="true">MFPArmorF.osd\BeltWaistHeight</Data>
+            <Data name="Belt_MetalWaistHeight" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" default="0">
+            <Data name="MFPJacketFWideWaistLine" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFWideWaistLine</Data>
+            <Data name="LeatherPantsFWideWaistLine" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFWideWaistLine</Data>
+            <Data name="Shotgun_StrapWideWaistLine" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapWideWaistLine</Data>
+            <Data name="BeltWideWaistLine" target="Belt" local="true">MFPArmorF.osd\BeltWideWaistLine</Data>
+            <Data name="Belt_MetalWideWaistLine" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalWideWaistLine</Data>
+        </Slider>
+        <Slider name="Ankles" invert="false" default="0">
+            <Data name="CBBEAnkles" target="CBBE" local="true">MFPArmorF.osd\CBBEAnkles</Data>
+            <Data name="LeatherPantsFAnkles" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFAnkles</Data>
+            <Data name="BootsAnkles" target="Boots" local="true">MFPArmorF.osd\BootsAnkles</Data>
+            <Data name="Boots_BadgeAnkles" target="Boots_Badge" local="true">MFPArmorF.osd\Boots_BadgeAnkles</Data>
+            <Data name="Boots_StrapsAnkles" target="Boots_Straps" local="true">MFPArmorF.osd\Boots_StrapsAnkles</Data>
+            <Data name="Boots_Straps_MetalAnkles" target="Boots_Straps_Metal" local="true">MFPArmorF.osd\Boots_Straps_MetalAnkles</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" default="0">
+            <Data name="MFPJacketFAppleCheeks" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFAppleCheeks</Data>
+            <Data name="LeatherPantsFAppleCheeks" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFAppleCheeks</Data>
+            <Data name="Shotgun_StrapAppleCheeks" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapAppleCheeks</Data>
+            <Data name="BeltAppleCheeks" target="Belt" local="true">MFPArmorF.osd\BeltAppleCheeks</Data>
+            <Data name="Belt_MetalAppleCheeks" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" default="0">
+            <Data name="CBBEArms" target="CBBE" local="true">MFPArmorF.osd\CBBEArms</Data>
+            <Data name="MFPJacketFArms" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" default="0">
+            <Data name="CBBEBack" target="CBBE" local="true">MFPArmorF.osd\CBBEBack</Data>
+            <Data name="MFPJacketFBack" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBack</Data>
+            <Data name="LeatherPantsFBack" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFBack</Data>
+            <Data name="Shotgun_StrapBack" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapBack</Data>
+            <Data name="BeltBack" target="Belt" local="true">MFPArmorF.osd\BeltBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" default="0">
+            <Data name="MFPJacketFBackArch" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBackArch</Data>
+            <Data name="LeatherPantsFBackArch" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFBackArch</Data>
+            <Data name="BeltBackArch" target="Belt" local="true">MFPArmorF.osd\BeltBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" default="0">
+            <Data name="MFPJacketFBelly" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBelly</Data>
+            <Data name="LeatherPantsFBelly" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFBelly</Data>
+            <Data name="Shotgun_StrapBelly" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapBelly</Data>
+            <Data name="BeltBelly" target="Belt" local="true">MFPArmorF.osd\BeltBelly</Data>
+            <Data name="Belt_MetalBelly" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" default="0">
+            <Data name="MFPJacketFBigBelly" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBigBelly</Data>
+            <Data name="LeatherPantsFBigBelly" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFBigBelly</Data>
+            <Data name="Shotgun_StrapBigBelly" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapBigBelly</Data>
+            <Data name="BeltBigBelly" target="Belt" local="true">MFPArmorF.osd\BeltBigBelly</Data>
+            <Data name="Belt_MetalBigBelly" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" default="0">
+            <Data name="MFPJacketFBigButt" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBigButt</Data>
+            <Data name="LeatherPantsFBigButt" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFBigButt</Data>
+            <Data name="Shotgun_StrapBigButt" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapBigButt</Data>
+            <Data name="BeltBigButt" target="Belt" local="true">MFPArmorF.osd\BeltBigButt</Data>
+            <Data name="Belt_MetalBigButt" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" default="0">
+            <Data name="CBBEBigTorso" target="CBBE" local="true">MFPArmorF.osd\CBBEBigTorso</Data>
+            <Data name="MFPJacketFBigTorso" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBigTorso</Data>
+            <Data name="LeatherPantsFBigTorso" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFBigTorso</Data>
+            <Data name="Shotgun_StrapBigTorso" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapBigTorso</Data>
+            <Data name="BeltBigTorso" target="Belt" local="true">MFPArmorF.osd\BeltBigTorso</Data>
+            <Data name="Belt_MetalBigTorso" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" default="0">
+            <Data name="MFPJacketFBreastCenter" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" default="0">
+            <Data name="MFPJacketFBreastCenterBig" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastFantasy" invert="false" default="0">
+            <Data name="MFPJacketFBreastFantasy" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastFantasy</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" default="0">
+            <Data name="MFPJacketFBreastFlatness2" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" default="0">
+            <Data name="CBBEBreastGravity2" target="CBBE" local="true">MFPArmorF.osd\CBBEBreastGravity2</Data>
+            <Data name="MFPJacketFBreastGravity2" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" default="0">
+            <Data name="CBBEBreastHeight" target="CBBE" local="true">MFPArmorF.osd\CBBEBreastHeight</Data>
+            <Data name="MFPJacketFBreastHeight" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastHeight</Data>
+            <Data name="Shotgun_StrapBreastHeight" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" default="0">
+            <Data name="MFPJacketFBreastPerkiness" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFBreastPerkiness</Data>
+        </Slider>
+        <Slider name="ArmpitHeight" invert="false" default="0">
+            <Data name="MFPJacketFArmpitHeight" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFArmpitHeight</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" default="0">
+            <Data name="CBBEForearmSize" target="CBBE" local="true">MFPArmorF.osd\CBBEForearmSize</Data>
+            <Data name="MFPJacketFForearmSize" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFForearmSize</Data>
+        </Slider>
+        <Slider name="NippleShape" invert="false" default="0">
+            <Data name="MFPJacketFNippleShape" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFNippleShape</Data>
+        </Slider>
+        <Slider name="NippleTwistUp" invert="false" default="0">
+            <Data name="MFPJacketFNippleTwistUp" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFNippleTwistUp</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" default="0">
+            <Data name="CBBE7B Upper" target="CBBE" local="true">MFPArmorF.osd\CBBE7B Upper</Data>
+            <Data name="MFPJacketF7B Upper" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketF7B Upper</Data>
+            <Data name="Shotgun_Strap7B Upper" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_Strap7B Upper</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" default="0">
+            <Data name="CBBE7B Lower" target="CBBE" local="true">MFPArmorF.osd\CBBE7B Lower</Data>
+            <Data name="MFPJacketF7B Lower" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketF7B Lower</Data>
+            <Data name="LeatherPantsF7B Lower" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsF7B Lower</Data>
+            <Data name="Shotgun_Strap7B Lower" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_Strap7B Lower</Data>
+            <Data name="Boots7B Lower" target="Boots" local="true">MFPArmorF.osd\Boots7B Lower</Data>
+            <Data name="Boots_Badge7B Lower" target="Boots_Badge" local="true">MFPArmorF.osd\Boots_Badge7B Lower</Data>
+            <Data name="Boots_Straps7B Lower" target="Boots_Straps" local="true">MFPArmorF.osd\Boots_Straps7B Lower</Data>
+            <Data name="Boots_Straps_Metal7B Lower" target="Boots_Straps_Metal" local="true">MFPArmorF.osd\Boots_Straps_Metal7B Lower</Data>
+            <Data name="Belt7B Lower" target="Belt" local="true">MFPArmorF.osd\Belt7B Lower</Data>
+            <Data name="Belt_Metal7B Lower" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_Metal7B Lower</Data>
+        </Slider>
+        <Slider name="MuscularChest" invert="false" default="0">
+            <Data name="CBBEMuscularChest" target="CBBE" local="true">MFPArmorF.osd\CBBEMuscularChest</Data>
+            <Data name="MFPJacketFMuscularChest" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFMuscularChest</Data>
+            <Data name="LeatherPantsFMuscularChest" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFMuscularChest</Data>
+            <Data name="Shotgun_StrapMuscularChest" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapMuscularChest</Data>
+            <Data name="BeltMuscularChest" target="Belt" local="true">MFPArmorF.osd\BeltMuscularChest</Data>
+            <Data name="Belt_MetalMuscularChest" target="Belt_Metal" local="true">MFPArmorF.osd\Belt_MetalMuscularChest</Data>
+        </Slider>
+        <Slider name="MuscularArms" invert="false" default="0">
+            <Data name="CBBEMuscularArms" target="CBBE" local="true">MFPArmorF.osd\CBBEMuscularArms</Data>
+            <Data name="MFPJacketFMuscularArms" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFMuscularArms</Data>
+        </Slider>
+        <Slider name="MuscularButt" invert="false" default="0">
+            <Data name="MFPJacketFMuscularButt" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFMuscularButt</Data>
+            <Data name="LeatherPantsFMuscularButt" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFMuscularButt</Data>
+            <Data name="Shotgun_StrapMuscularButt" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapMuscularButt</Data>
+            <Data name="BeltMuscularButt" target="Belt" local="true">MFPArmorF.osd\BeltMuscularButt</Data>
+        </Slider>
+        <Slider name="MuscularLegs" invert="false" default="0">
+            <Data name="CBBEMuscularLegs" target="CBBE" local="true">MFPArmorF.osd\CBBEMuscularLegs</Data>
+            <Data name="MFPJacketFMuscularLegs" target="MFPJacketF" local="true">MFPArmorF.osd\MFPJacketFMuscularLegs</Data>
+            <Data name="LeatherPantsFMuscularLegs" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFMuscularLegs</Data>
+            <Data name="Shotgun_StrapMuscularLegs" target="Shotgun_Strap" local="true">MFPArmorF.osd\Shotgun_StrapMuscularLegs</Data>
+            <Data name="BootsMuscularLegs" target="Boots" local="true">MFPArmorF.osd\BootsMuscularLegs</Data>
+            <Data name="Boots_BadgeMuscularLegs" target="Boots_Badge" local="true">MFPArmorF.osd\Boots_BadgeMuscularLegs</Data>
+            <Data name="Boots_StrapsMuscularLegs" target="Boots_Straps" local="true">MFPArmorF.osd\Boots_StrapsMuscularLegs</Data>
+            <Data name="Boots_Straps_MetalMuscularLegs" target="Boots_Straps_Metal" local="true">MFPArmorF.osd\Boots_Straps_MetalMuscularLegs</Data>
+            <Data name="BeltMuscularLegs" target="Belt" local="true">MFPArmorF.osd\BeltMuscularLegs</Data>
+        </Slider>
+        <Slider name="FeetFeminine" invert="false" default="0">
+            <Data name="LeatherPantsFFeetFeminine" target="LeatherPantsF" local="true">MFPArmorF.osd\LeatherPantsFFeetFeminine</Data>
+            <Data name="BootsFeetFeminine" target="Boots" local="true">MFPArmorF.osd\BootsFeetFeminine</Data>
+            <Data name="Boots_BadgeFeetFeminine" target="Boots_Badge" local="true">MFPArmorF.osd\Boots_BadgeFeetFeminine</Data>
+            <Data name="Boots_StrapsFeetFeminine" target="Boots_Straps" local="true">MFPArmorF.osd\Boots_StrapsFeetFeminine</Data>
+            <Data name="Boots_Straps_MetalFeetFeminine" target="Boots_Straps_Metal" local="true">MFPArmorF.osd\Boots_Straps_MetalFeetFeminine</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Mad Max - Mad Max 2 Armor F">
+        <DataFolder>MadMaxArmor</DataFolder>
+        <SourceFile>MadMax2ArmorF.nif</SourceFile>
+        <OutputPath>Meshes\Armor\MadMaxArmor</OutputPath>
+        <OutputFile GenWeights="false">MadMax2ArmorF</OutputFile>
+        <Shape target="Belt">Belt</Shape>
+        <Shape target="Belt_Metal">Belt_Metal</Shape>
+        <Shape target="Boots">Boots</Shape>
+        <Shape target="Boots_Harness">Boots_Harness</Shape>
+        <Shape target="Boots_Harness_Metal">Boots_Harness_Metal</Shape>
+        <Shape target="Boots_Straps">Boots_Straps</Shape>
+        <Shape target="Boots_Straps_metal">Boots_Straps_metal</Shape>
+        <Shape target="CBBE" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="LeatherPantsF">LeatherPantsF</Shape>
+        <Shape target="LeatherSleeveRolledUp">LeatherSleeveRolledUp</Shape>
+        <Shape target="MotorcycleJacketF_2">MotorcycleJacketF_2</Shape>
+        <Shape target="Shotgun_Barrel">Shotgun_Barrel</Shape>
+        <Shape target="Shotgun_Holster">Shotgun_Holster</Shape>
+        <Shape target="Shotgun_Receiver">Shotgun_Receiver</Shape>
+        <Shape target="Shotgun_Receiver_2">Shotgun_Receiver_2</Shape>
+        <Shape target="Shotgun_Stock">Shotgun_Stock</Shape>
+        <Shape target="Shotgun_Strap">Shotgun_Strap</Shape>
+        <Shape target="Shoulder_Heavy">Shoulder_Heavy</Shape>
+        <Shape target="Shoulder_Lite_Under">Shoulder_Lite_Under</Shape>
+        <Slider name="Breasts" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2Breasts" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2Breasts</Data>
+            <Data name="Shoulder_HeavyBreasts" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyBreasts</Data>
+            <Data name="Shoulder_Lite_UnderBreasts" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBreasts</Data>
+            <Data name="BeltBreasts" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreasts</Data>
+            <Data name="Belt_MetalBreasts" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreasts</Data>
+        </Slider>
+        <Slider name="BreastsCleavage" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastsCleavage" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastsCleavage</Data>
+            <Data name="BeltBreastsCleavage" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastsCleavage</Data>
+            <Data name="Belt_MetalBreastsCleavage" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastsCleavage</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastsGone" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastsGone</Data>
+            <Data name="Shoulder_Lite_UnderBreastsGone" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBreastsGone</Data>
+            <Data name="BeltBreastsGone" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastsGone</Data>
+            <Data name="Belt_MetalBreastsGone" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastsNewSH" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastsNewSH</Data>
+            <Data name="Shoulder_HeavyBreastsNewSH" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyBreastsNewSH</Data>
+            <Data name="Shoulder_Lite_UnderBreastsNewSH" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBreastsNewSH</Data>
+            <Data name="BeltBreastsNewSH" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastsNewSH</Data>
+            <Data name="Belt_MetalBreastsNewSH" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastsSmall" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastsSmall</Data>
+            <Data name="LeatherPantsFBreastsSmall" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFBreastsSmall</Data>
+            <Data name="Shoulder_HeavyBreastsSmall" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyBreastsSmall</Data>
+            <Data name="Shoulder_Lite_UnderBreastsSmall" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBreastsSmall</Data>
+            <Data name="Shotgun_StrapBreastsSmall" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapBreastsSmall</Data>
+            <Data name="BeltBreastsSmall" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastsSmall</Data>
+            <Data name="Belt_MetalBreastsSmall" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastsSmall2" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastsSmall2</Data>
+            <Data name="LeatherPantsFBreastsSmall2" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFBreastsSmall2</Data>
+            <Data name="Shoulder_HeavyBreastsSmall2" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyBreastsSmall2</Data>
+            <Data name="Shoulder_Lite_UnderBreastsSmall2" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBreastsSmall2</Data>
+            <Data name="LeatherSleeveRolledUpBreastsSmall2" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUpBreastsSmall2</Data>
+            <Data name="Shotgun_StrapBreastsSmall2" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapBreastsSmall2</Data>
+            <Data name="BeltBreastsSmall2" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastsSmall2</Data>
+            <Data name="Belt_MetalBreastsSmall2" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastsTogether" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastsTogether</Data>
+            <Data name="Shoulder_Lite_UnderBreastsTogether" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBreastsTogether</Data>
+            <Data name="BeltBreastsTogether" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastsTogether</Data>
+            <Data name="Belt_MetalBreastsTogether" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastTopSlope" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastTopSlope</Data>
+            <Data name="Shoulder_Lite_UnderBreastTopSlope" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBreastTopSlope</Data>
+            <Data name="BeltBreastTopSlope" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastTopSlope</Data>
+            <Data name="Belt_MetalBreastTopSlope" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastWidth" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastWidth</Data>
+            <Data name="Shoulder_HeavyBreastWidth" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyBreastWidth</Data>
+            <Data name="Shoulder_Lite_UnderBreastWidth" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBreastWidth</Data>
+            <Data name="Shotgun_StrapBreastWidth" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapBreastWidth</Data>
+            <Data name="BeltBreastWidth" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastWidth</Data>
+            <Data name="Belt_MetalBreastWidth" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" default="0">
+            <Data name="CBBEButt" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEButt</Data>
+            <Data name="MotorcycleJacketF_2Butt" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2Butt</Data>
+            <Data name="LeatherPantsFButt" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFButt</Data>
+            <Data name="Shotgun_StrapButt" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapButt</Data>
+            <Data name="BeltButt" target="Belt" local="true">MadMax2ArmorF.osd\BeltButt</Data>
+            <Data name="Belt_MetalButt" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalButt</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2ButtCrack" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ButtCrack</Data>
+            <Data name="LeatherPantsFButtCrack" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFButtCrack</Data>
+            <Data name="Shotgun_StrapButtCrack" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapButtCrack</Data>
+            <Data name="BeltButtCrack" target="Belt" local="true">MadMax2ArmorF.osd\BeltButtCrack</Data>
+            <Data name="Belt_MetalButtCrack" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalButtCrack</Data>
+        </Slider>
+        <Slider name="ButtNew" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2ButtNew" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ButtNew</Data>
+            <Data name="LeatherPantsFButtNew" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFButtNew</Data>
+            <Data name="Shotgun_StrapButtNew" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapButtNew</Data>
+            <Data name="BeltButtNew" target="Belt" local="true">MadMax2ArmorF.osd\BeltButtNew</Data>
+            <Data name="Belt_MetalButtNew" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalButtNew</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2ButtShape2" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ButtShape2</Data>
+            <Data name="LeatherPantsFButtShape2" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFButtShape2</Data>
+            <Data name="Shotgun_StrapButtShape2" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapButtShape2</Data>
+            <Data name="BeltButtShape2" target="Belt" local="true">MadMax2ArmorF.osd\BeltButtShape2</Data>
+            <Data name="Belt_MetalButtShape2" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" default="0">
+            <Data name="CBBEButtSmall" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEButtSmall</Data>
+            <Data name="MotorcycleJacketF_2ButtSmall" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ButtSmall</Data>
+            <Data name="LeatherPantsFButtSmall" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFButtSmall</Data>
+            <Data name="Shotgun_StrapButtSmall" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapButtSmall</Data>
+            <Data name="BeltButtSmall" target="Belt" local="true">MadMax2ArmorF.osd\BeltButtSmall</Data>
+            <Data name="Belt_MetalButtSmall" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" default="0">
+            <Data name="LeatherPantsFCalfSize" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFCalfSize</Data>
+            <Data name="BootsCalfSize" target="Boots" local="true">MadMax2ArmorF.osd\BootsCalfSize</Data>
+            <Data name="Boots_StrapsCalfSize" target="Boots_Straps" local="true">MadMax2ArmorF.osd\Boots_StrapsCalfSize</Data>
+            <Data name="Boots_Straps_metalCalfSize" target="Boots_Straps_metal" local="true">MadMax2ArmorF.osd\Boots_Straps_metalCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" default="0">
+            <Data name="LeatherPantsFCalfSmooth" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFCalfSmooth</Data>
+            <Data name="BootsCalfSmooth" target="Boots" local="true">MadMax2ArmorF.osd\BootsCalfSmooth</Data>
+            <Data name="Boots_StrapsCalfSmooth" target="Boots_Straps" local="true">MadMax2ArmorF.osd\Boots_StrapsCalfSmooth</Data>
+            <Data name="Boots_Straps_metalCalfSmooth" target="Boots_Straps_metal" local="true">MadMax2ArmorF.osd\Boots_Straps_metalCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" default="0">
+            <Data name="CBBEChestDepth" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEChestDepth</Data>
+            <Data name="MotorcycleJacketF_2ChestDepth" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ChestDepth</Data>
+            <Data name="LeatherPantsFChestDepth" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFChestDepth</Data>
+            <Data name="Shoulder_HeavyChestDepth" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyChestDepth</Data>
+            <Data name="Shoulder_Lite_UnderChestDepth" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderChestDepth</Data>
+            <Data name="LeatherSleeveRolledUpChestDepth" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUpChestDepth</Data>
+            <Data name="Shotgun_StrapChestDepth" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapChestDepth</Data>
+            <Data name="BeltChestDepth" target="Belt" local="true">MadMax2ArmorF.osd\BeltChestDepth</Data>
+            <Data name="Belt_MetalChestDepth" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" default="0">
+            <Data name="CBBEChestWidth" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEChestWidth</Data>
+            <Data name="MotorcycleJacketF_2ChestWidth" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ChestWidth</Data>
+            <Data name="LeatherPantsFChestWidth" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFChestWidth</Data>
+            <Data name="Shoulder_HeavyChestWidth" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyChestWidth</Data>
+            <Data name="Shoulder_Lite_UnderChestWidth" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderChestWidth</Data>
+            <Data name="LeatherSleeveRolledUpChestWidth" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUpChestWidth</Data>
+            <Data name="Shotgun_StrapChestWidth" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapChestWidth</Data>
+            <Data name="BeltChestWidth" target="Belt" local="true">MadMax2ArmorF.osd\BeltChestWidth</Data>
+            <Data name="Belt_MetalChestWidth" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" default="0">
+            <Data name="CBBEChubbyArms" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEChubbyArms</Data>
+            <Data name="MotorcycleJacketF_2ChubbyArms" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ChubbyArms</Data>
+            <Data name="Shoulder_HeavyChubbyArms" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyChubbyArms</Data>
+            <Data name="Shoulder_Lite_UnderChubbyArms" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderChubbyArms</Data>
+            <Data name="LeatherSleeveRolledUpChubbyArms" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUpChubbyArms</Data>
+            <Data name="BeltChubbyArms" target="Belt" local="true">MadMax2ArmorF.osd\BeltChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" default="0">
+            <Data name="CBBEChubbyButt" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEChubbyButt</Data>
+            <Data name="MotorcycleJacketF_2ChubbyButt" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ChubbyButt</Data>
+            <Data name="LeatherPantsFChubbyButt" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFChubbyButt</Data>
+            <Data name="Shotgun_StrapChubbyButt" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapChubbyButt</Data>
+            <Data name="BeltChubbyButt" target="Belt" local="true">MadMax2ArmorF.osd\BeltChubbyButt</Data>
+            <Data name="Belt_MetalChubbyButt" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" default="0">
+            <Data name="CBBEChubbyLegs" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEChubbyLegs</Data>
+            <Data name="MotorcycleJacketF_2ChubbyLegs" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ChubbyLegs</Data>
+            <Data name="LeatherPantsFChubbyLegs" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFChubbyLegs</Data>
+            <Data name="BootsChubbyLegs" target="Boots" local="true">MadMax2ArmorF.osd\BootsChubbyLegs</Data>
+            <Data name="Boots_StrapsChubbyLegs" target="Boots_Straps" local="true">MadMax2ArmorF.osd\Boots_StrapsChubbyLegs</Data>
+            <Data name="Boots_Straps_metalChubbyLegs" target="Boots_Straps_metal" local="true">MadMax2ArmorF.osd\Boots_Straps_metalChubbyLegs</Data>
+            <Data name="Boots_HarnessChubbyLegs" target="Boots_Harness" local="true">MadMax2ArmorF.osd\Boots_HarnessChubbyLegs</Data>
+            <Data name="Boots_Harness_MetalChubbyLegs" target="Boots_Harness_Metal" local="true">MadMax2ArmorF.osd\Boots_Harness_MetalChubbyLegs</Data>
+            <Data name="Shotgun_StrapChubbyLegs" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapChubbyLegs</Data>
+            <Data name="BeltChubbyLegs" target="Belt" local="true">MadMax2ArmorF.osd\BeltChubbyLegs</Data>
+            <Data name="Belt_MetalChubbyLegs" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2ChubbyWaist" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ChubbyWaist</Data>
+            <Data name="LeatherPantsFChubbyWaist" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFChubbyWaist</Data>
+            <Data name="LeatherSleeveRolledUpChubbyWaist" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUpChubbyWaist</Data>
+            <Data name="Shotgun_StrapChubbyWaist" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapChubbyWaist</Data>
+            <Data name="BeltChubbyWaist" target="Belt" local="true">MadMax2ArmorF.osd\BeltChubbyWaist</Data>
+            <Data name="Belt_MetalChubbyWaist" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" default="0">
+            <Data name="CBBECrotchBack" target="CBBE" local="true">MadMax2ArmorF.osd\CBBECrotchBack</Data>
+            <Data name="MotorcycleJacketF_2CrotchBack" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2CrotchBack</Data>
+            <Data name="LeatherPantsFCrotchBack" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFCrotchBack</Data>
+            <Data name="Shotgun_StrapCrotchBack" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapCrotchBack</Data>
+            <Data name="BeltCrotchBack" target="Belt" local="true">MadMax2ArmorF.osd\BeltCrotchBack</Data>
+            <Data name="Belt_MetalCrotchBack" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2DoubleMelon" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2DoubleMelon</Data>
+            <Data name="Shoulder_HeavyDoubleMelon" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyDoubleMelon</Data>
+            <Data name="Shoulder_Lite_UnderDoubleMelon" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderDoubleMelon</Data>
+            <Data name="BeltDoubleMelon" target="Belt" local="true">MadMax2ArmorF.osd\BeltDoubleMelon</Data>
+            <Data name="Belt_MetalDoubleMelon" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalDoubleMelon</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2Groin" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2Groin</Data>
+            <Data name="LeatherPantsFGroin" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFGroin</Data>
+            <Data name="Shotgun_StrapGroin" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapGroin</Data>
+            <Data name="BeltGroin" target="Belt" local="true">MadMax2ArmorF.osd\BeltGroin</Data>
+            <Data name="Belt_MetalGroin" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalGroin</Data>
+        </Slider>
+        <Slider name="HipBack" invert="false" default="0">
+            <Data name="CBBEHipBack" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEHipBack</Data>
+            <Data name="MotorcycleJacketF_2HipBack" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2HipBack</Data>
+            <Data name="LeatherPantsFHipBack" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFHipBack</Data>
+            <Data name="Shotgun_StrapHipBack" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapHipBack</Data>
+            <Data name="BeltHipBack" target="Belt" local="true">MadMax2ArmorF.osd\BeltHipBack</Data>
+            <Data name="Belt_MetalHipBack" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalHipBack</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2HipBone" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2HipBone</Data>
+            <Data name="LeatherPantsFHipBone" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFHipBone</Data>
+            <Data name="Shotgun_StrapHipBone" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapHipBone</Data>
+            <Data name="BeltHipBone" target="Belt" local="true">MadMax2ArmorF.osd\BeltHipBone</Data>
+            <Data name="Belt_MetalHipBone" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalHipBone</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2Hips" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2Hips</Data>
+            <Data name="LeatherPantsFHips" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFHips</Data>
+            <Data name="Shotgun_StrapHips" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapHips</Data>
+            <Data name="BeltHips" target="Belt" local="true">MadMax2ArmorF.osd\BeltHips</Data>
+            <Data name="Belt_MetalHips" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2HipUpperWidth" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2HipUpperWidth</Data>
+            <Data name="LeatherPantsFHipUpperWidth" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFHipUpperWidth</Data>
+            <Data name="Shotgun_StrapHipUpperWidth" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapHipUpperWidth</Data>
+            <Data name="BeltHipUpperWidth" target="Belt" local="true">MadMax2ArmorF.osd\BeltHipUpperWidth</Data>
+            <Data name="Belt_MetalHipUpperWidth" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" default="0">
+            <Data name="CBBEKneeHeight" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEKneeHeight</Data>
+            <Data name="LeatherPantsFKneeHeight" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFKneeHeight</Data>
+            <Data name="BootsKneeHeight" target="Boots" local="true">MadMax2ArmorF.osd\BootsKneeHeight</Data>
+            <Data name="Boots_StrapsKneeHeight" target="Boots_Straps" local="true">MadMax2ArmorF.osd\Boots_StrapsKneeHeight</Data>
+            <Data name="Boots_Straps_metalKneeHeight" target="Boots_Straps_metal" local="true">MadMax2ArmorF.osd\Boots_Straps_metalKneeHeight</Data>
+            <Data name="Shotgun_StrapKneeHeight" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapKneeHeight</Data>
+        </Slider>
+        <Slider name="LegShape" invert="false" default="0">
+            <Data name="CBBELegShape" target="CBBE" local="true">MadMax2ArmorF.osd\CBBELegShape</Data>
+            <Data name="LeatherPantsFLegShape" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFLegShape</Data>
+            <Data name="BootsLegShape" target="Boots" local="true">MadMax2ArmorF.osd\BootsLegShape</Data>
+            <Data name="Boots_StrapsLegShape" target="Boots_Straps" local="true">MadMax2ArmorF.osd\Boots_StrapsLegShape</Data>
+            <Data name="Boots_Straps_metalLegShape" target="Boots_Straps_metal" local="true">MadMax2ArmorF.osd\Boots_Straps_metalLegShape</Data>
+            <Data name="Shotgun_StrapLegShape" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapLegShape</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" default="0">
+            <Data name="CBBELegsThin" target="CBBE" local="true">MadMax2ArmorF.osd\CBBELegsThin</Data>
+            <Data name="MotorcycleJacketF_2LegsThin" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2LegsThin</Data>
+            <Data name="LeatherPantsFLegsThin" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFLegsThin</Data>
+            <Data name="BootsLegsThin" target="Boots" local="true">MadMax2ArmorF.osd\BootsLegsThin</Data>
+            <Data name="Boots_StrapsLegsThin" target="Boots_Straps" local="true">MadMax2ArmorF.osd\Boots_StrapsLegsThin</Data>
+            <Data name="Boots_Straps_metalLegsThin" target="Boots_Straps_metal" local="true">MadMax2ArmorF.osd\Boots_Straps_metalLegsThin</Data>
+            <Data name="Shotgun_StrapLegsThin" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapLegsThin</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2NipBGone" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2NipBGone</Data>
+            <Data name="BeltNipBGone" target="Belt" local="true">MadMax2ArmorF.osd\BeltNipBGone</Data>
+        </Slider>
+        <Slider name="NippleAreola" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2NippleAreola" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2NippleAreola</Data>
+            <Data name="BeltNippleAreola" target="Belt" local="true">MadMax2ArmorF.osd\BeltNippleAreola</Data>
+            <Data name="Belt_MetalNippleAreola" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalNippleAreola</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2NippleDistance" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2NippleDistance</Data>
+            <Data name="BeltNippleDistance" target="Belt" local="true">MadMax2ArmorF.osd\BeltNippleDistance</Data>
+            <Data name="Belt_MetalNippleDistance" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2NippleDown" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2NippleDown</Data>
+            <Data name="BeltNippleDown" target="Belt" local="true">MadMax2ArmorF.osd\BeltNippleDown</Data>
+            <Data name="Belt_MetalNippleDown" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalNippleDown</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2NippleLength" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2NippleLength</Data>
+            <Data name="BeltNippleLength" target="Belt" local="true">MadMax2ArmorF.osd\BeltNippleLength</Data>
+        </Slider>
+        <Slider name="NipplePerk2" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2NipplePerk2" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2NipplePerk2</Data>
+            <Data name="BeltNipplePerk2" target="Belt" local="true">MadMax2ArmorF.osd\BeltNipplePerk2</Data>
+            <Data name="Belt_MetalNipplePerk2" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalNipplePerk2</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2NipplePerkiness" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2NipplePerkiness</Data>
+            <Data name="BeltNipplePerkiness" target="Belt" local="true">MadMax2ArmorF.osd\BeltNipplePerkiness</Data>
+            <Data name="Belt_MetalNipplePerkiness" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2NippleSize" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2NippleSize</Data>
+            <Data name="BeltNippleSize" target="Belt" local="true">MadMax2ArmorF.osd\BeltNippleSize</Data>
+            <Data name="Belt_MetalNippleSize" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalNippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2NippleTip" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2NippleTip</Data>
+            <Data name="BeltNippleTip" target="Belt" local="true">MadMax2ArmorF.osd\BeltNippleTip</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2NippleUp" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2NippleUp</Data>
+            <Data name="BeltNippleUp" target="Belt" local="true">MadMax2ArmorF.osd\BeltNippleUp</Data>
+            <Data name="Belt_MetalNippleUp" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2PregnancyBelly" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2PregnancyBelly</Data>
+            <Data name="LeatherPantsFPregnancyBelly" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFPregnancyBelly</Data>
+            <Data name="Shotgun_StrapPregnancyBelly" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapPregnancyBelly</Data>
+            <Data name="BeltPregnancyBelly" target="Belt" local="true">MadMax2ArmorF.osd\BeltPregnancyBelly</Data>
+            <Data name="Belt_MetalPregnancyBelly" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2PushUp" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2PushUp</Data>
+            <Data name="Shoulder_HeavyPushUp" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyPushUp</Data>
+            <Data name="Shoulder_Lite_UnderPushUp" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderPushUp</Data>
+            <Data name="BeltPushUp" target="Belt" local="true">MadMax2ArmorF.osd\BeltPushUp</Data>
+            <Data name="Belt_MetalPushUp" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalPushUp</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2RoundAss" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2RoundAss</Data>
+            <Data name="LeatherPantsFRoundAss" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFRoundAss</Data>
+            <Data name="Shotgun_StrapRoundAss" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapRoundAss</Data>
+            <Data name="BeltRoundAss" target="Belt" local="true">MadMax2ArmorF.osd\BeltRoundAss</Data>
+            <Data name="Belt_MetalRoundAss" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" default="0">
+            <Data name="CBBEShoulderSmooth" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEShoulderSmooth</Data>
+            <Data name="MotorcycleJacketF_2ShoulderSmooth" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ShoulderSmooth</Data>
+            <Data name="Shoulder_HeavyShoulderSmooth" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyShoulderSmooth</Data>
+            <Data name="Shoulder_Lite_UnderShoulderSmooth" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderShoulderSmooth</Data>
+            <Data name="BeltShoulderSmooth" target="Belt" local="true">MadMax2ArmorF.osd\BeltShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" default="0">
+            <Data name="CBBEShoulderTweak" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEShoulderTweak</Data>
+            <Data name="MotorcycleJacketF_2ShoulderTweak" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ShoulderTweak</Data>
+            <Data name="Shoulder_HeavyShoulderTweak" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyShoulderTweak</Data>
+            <Data name="Shoulder_Lite_UnderShoulderTweak" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderShoulderTweak</Data>
+            <Data name="BeltShoulderTweak" target="Belt" local="true">MadMax2ArmorF.osd\BeltShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" default="0">
+            <Data name="CBBEShoulderWidth" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEShoulderWidth</Data>
+            <Data name="MotorcycleJacketF_2ShoulderWidth" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ShoulderWidth</Data>
+            <Data name="Shoulder_HeavyShoulderWidth" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyShoulderWidth</Data>
+            <Data name="Shoulder_Lite_UnderShoulderWidth" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderShoulderWidth</Data>
+            <Data name="LeatherSleeveRolledUpShoulderWidth" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUpShoulderWidth</Data>
+            <Data name="BeltShoulderWidth" target="Belt" local="true">MadMax2ArmorF.osd\BeltShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" default="0">
+            <Data name="CBBESlimThighs" target="CBBE" local="true">MadMax2ArmorF.osd\CBBESlimThighs</Data>
+            <Data name="MotorcycleJacketF_2SlimThighs" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2SlimThighs</Data>
+            <Data name="LeatherPantsFSlimThighs" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFSlimThighs</Data>
+            <Data name="BootsSlimThighs" target="Boots" local="true">MadMax2ArmorF.osd\BootsSlimThighs</Data>
+            <Data name="Shotgun_StrapSlimThighs" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapSlimThighs</Data>
+            <Data name="BeltSlimThighs" target="Belt" local="true">MadMax2ArmorF.osd\BeltSlimThighs</Data>
+            <Data name="Belt_MetalSlimThighs" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2SternumDepth" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2SternumDepth</Data>
+            <Data name="BeltSternumDepth" target="Belt" local="true">MadMax2ArmorF.osd\BeltSternumDepth</Data>
+            <Data name="Belt_MetalSternumDepth" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2SternumHeight" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2SternumHeight</Data>
+            <Data name="Shotgun_StrapSternumHeight" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapSternumHeight</Data>
+            <Data name="BeltSternumHeight" target="Belt" local="true">MadMax2ArmorF.osd\BeltSternumHeight</Data>
+            <Data name="Belt_MetalSternumHeight" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" default="0">
+            <Data name="CBBEThighs" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEThighs</Data>
+            <Data name="MotorcycleJacketF_2Thighs" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2Thighs</Data>
+            <Data name="LeatherPantsFThighs" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFThighs</Data>
+            <Data name="BootsThighs" target="Boots" local="true">MadMax2ArmorF.osd\BootsThighs</Data>
+            <Data name="Shotgun_StrapThighs" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapThighs</Data>
+            <Data name="BeltThighs" target="Belt" local="true">MadMax2ArmorF.osd\BeltThighs</Data>
+            <Data name="Belt_MetalThighs" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2TummyTuck" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2TummyTuck</Data>
+            <Data name="LeatherPantsFTummyTuck" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFTummyTuck</Data>
+            <Data name="Shotgun_StrapTummyTuck" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapTummyTuck</Data>
+            <Data name="BeltTummyTuck" target="Belt" local="true">MadMax2ArmorF.osd\BeltTummyTuck</Data>
+            <Data name="Belt_MetalTummyTuck" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalTummyTuck</Data>
+        </Slider>
+        <Slider name="VanillaFo4" invert="false" default="0">
+            <Data name="CBBEVanillaFo4" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEVanillaFo4</Data>
+            <Data name="MotorcycleJacketF_2VanillaFo4" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2VanillaFo4</Data>
+            <Data name="LeatherPantsFVanillaFo4" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFVanillaFo4</Data>
+            <Data name="BootsVanillaFo4" target="Boots" local="true">MadMax2ArmorF.osd\BootsVanillaFo4</Data>
+            <Data name="Boots_StrapsVanillaFo4" target="Boots_Straps" local="true">MadMax2ArmorF.osd\Boots_StrapsVanillaFo4</Data>
+            <Data name="Boots_Straps_metalVanillaFo4" target="Boots_Straps_metal" local="true">MadMax2ArmorF.osd\Boots_Straps_metalVanillaFo4</Data>
+            <Data name="Boots_HarnessVanillaFo4" target="Boots_Harness" local="true">MadMax2ArmorF.osd\Boots_HarnessVanillaFo4</Data>
+            <Data name="Boots_Harness_MetalVanillaFo4" target="Boots_Harness_Metal" local="true">MadMax2ArmorF.osd\Boots_Harness_MetalVanillaFo4</Data>
+            <Data name="Shoulder_HeavyVanillaFo4" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyVanillaFo4</Data>
+            <Data name="Shoulder_Lite_UnderVanillaFo4" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderVanillaFo4</Data>
+            <Data name="LeatherSleeveRolledUpVanillaFo4" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUpVanillaFo4</Data>
+            <Data name="Shotgun_StrapVanillaFo4" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapVanillaFo4</Data>
+            <Data name="BeltVanillaFo4" target="Belt" local="true">MadMax2ArmorF.osd\BeltVanillaFo4</Data>
+            <Data name="Belt_MetalVanillaFo4" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalVanillaFo4</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2Waist" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2Waist</Data>
+            <Data name="LeatherPantsFWaist" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFWaist</Data>
+            <Data name="Shotgun_StrapWaist" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapWaist</Data>
+            <Data name="BeltWaist" target="Belt" local="true">MadMax2ArmorF.osd\BeltWaist</Data>
+            <Data name="Belt_MetalWaist" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2WaistHeight" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2WaistHeight</Data>
+            <Data name="LeatherPantsFWaistHeight" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFWaistHeight</Data>
+            <Data name="Shotgun_StrapWaistHeight" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapWaistHeight</Data>
+            <Data name="BeltWaistHeight" target="Belt" local="true">MadMax2ArmorF.osd\BeltWaistHeight</Data>
+            <Data name="Belt_MetalWaistHeight" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2WideWaistLine" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2WideWaistLine</Data>
+            <Data name="LeatherPantsFWideWaistLine" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFWideWaistLine</Data>
+            <Data name="Shotgun_StrapWideWaistLine" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapWideWaistLine</Data>
+            <Data name="BeltWideWaistLine" target="Belt" local="true">MadMax2ArmorF.osd\BeltWideWaistLine</Data>
+            <Data name="Belt_MetalWideWaistLine" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalWideWaistLine</Data>
+        </Slider>
+        <Slider name="Ankles" invert="false" default="0">
+            <Data name="LeatherPantsFAnkles" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFAnkles</Data>
+            <Data name="BootsAnkles" target="Boots" local="true">MadMax2ArmorF.osd\BootsAnkles</Data>
+            <Data name="Boots_StrapsAnkles" target="Boots_Straps" local="true">MadMax2ArmorF.osd\Boots_StrapsAnkles</Data>
+            <Data name="Boots_Straps_metalAnkles" target="Boots_Straps_metal" local="true">MadMax2ArmorF.osd\Boots_Straps_metalAnkles</Data>
+            <Data name="Boots_HarnessAnkles" target="Boots_Harness" local="true">MadMax2ArmorF.osd\Boots_HarnessAnkles</Data>
+            <Data name="Boots_Harness_MetalAnkles" target="Boots_Harness_Metal" local="true">MadMax2ArmorF.osd\Boots_Harness_MetalAnkles</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2AppleCheeks" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2AppleCheeks</Data>
+            <Data name="LeatherPantsFAppleCheeks" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFAppleCheeks</Data>
+            <Data name="Shotgun_StrapAppleCheeks" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapAppleCheeks</Data>
+            <Data name="BeltAppleCheeks" target="Belt" local="true">MadMax2ArmorF.osd\BeltAppleCheeks</Data>
+            <Data name="Belt_MetalAppleCheeks" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" default="0">
+            <Data name="CBBEArms" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEArms</Data>
+            <Data name="MotorcycleJacketF_2Arms" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2Arms</Data>
+            <Data name="Shoulder_HeavyArms" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyArms</Data>
+            <Data name="Shoulder_Lite_UnderArms" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderArms</Data>
+            <Data name="LeatherSleeveRolledUpArms" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUpArms</Data>
+            <Data name="BeltArms" target="Belt" local="true">MadMax2ArmorF.osd\BeltArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" default="0">
+            <Data name="CBBEBack" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEBack</Data>
+            <Data name="MotorcycleJacketF_2Back" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2Back</Data>
+            <Data name="LeatherPantsFBack" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFBack</Data>
+            <Data name="Shoulder_HeavyBack" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyBack</Data>
+            <Data name="Shoulder_Lite_UnderBack" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBack</Data>
+            <Data name="LeatherSleeveRolledUpBack" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUpBack</Data>
+            <Data name="Shotgun_StrapBack" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapBack</Data>
+            <Data name="BeltBack" target="Belt" local="true">MadMax2ArmorF.osd\BeltBack</Data>
+            <Data name="Belt_MetalBack" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BackArch" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BackArch</Data>
+            <Data name="LeatherPantsFBackArch" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFBackArch</Data>
+            <Data name="BeltBackArch" target="Belt" local="true">MadMax2ArmorF.osd\BeltBackArch</Data>
+            <Data name="Belt_MetalBackArch" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2Belly" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2Belly</Data>
+            <Data name="LeatherPantsFBelly" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFBelly</Data>
+            <Data name="Shotgun_StrapBelly" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapBelly</Data>
+            <Data name="BeltBelly" target="Belt" local="true">MadMax2ArmorF.osd\BeltBelly</Data>
+            <Data name="Belt_MetalBelly" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BigBelly" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BigBelly</Data>
+            <Data name="LeatherPantsFBigBelly" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFBigBelly</Data>
+            <Data name="Shotgun_StrapBigBelly" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapBigBelly</Data>
+            <Data name="BeltBigBelly" target="Belt" local="true">MadMax2ArmorF.osd\BeltBigBelly</Data>
+            <Data name="Belt_MetalBigBelly" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BigButt" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BigButt</Data>
+            <Data name="LeatherPantsFBigButt" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFBigButt</Data>
+            <Data name="Shotgun_StrapBigButt" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapBigButt</Data>
+            <Data name="BeltBigButt" target="Belt" local="true">MadMax2ArmorF.osd\BeltBigButt</Data>
+            <Data name="Belt_MetalBigButt" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" default="0">
+            <Data name="CBBEBigTorso" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEBigTorso</Data>
+            <Data name="MotorcycleJacketF_2BigTorso" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BigTorso</Data>
+            <Data name="LeatherPantsFBigTorso" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFBigTorso</Data>
+            <Data name="Shoulder_HeavyBigTorso" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyBigTorso</Data>
+            <Data name="Shoulder_Lite_UnderBigTorso" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBigTorso</Data>
+            <Data name="LeatherSleeveRolledUpBigTorso" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUpBigTorso</Data>
+            <Data name="Shotgun_StrapBigTorso" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapBigTorso</Data>
+            <Data name="BeltBigTorso" target="Belt" local="true">MadMax2ArmorF.osd\BeltBigTorso</Data>
+            <Data name="Belt_MetalBigTorso" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastCenter" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastCenter</Data>
+            <Data name="BeltBreastCenter" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastCenter</Data>
+            <Data name="Belt_MetalBreastCenter" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastCenterBig" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastCenterBig</Data>
+            <Data name="BeltBreastCenterBig" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastCenterBig</Data>
+            <Data name="Belt_MetalBreastCenterBig" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastFantasy" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastFantasy" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastFantasy</Data>
+            <Data name="Shoulder_Lite_UnderBreastFantasy" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBreastFantasy</Data>
+            <Data name="BeltBreastFantasy" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastFantasy</Data>
+            <Data name="Belt_MetalBreastFantasy" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastFantasy</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastFlatness2" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastFlatness2</Data>
+            <Data name="BeltBreastFlatness2" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastFlatness2</Data>
+            <Data name="Belt_MetalBreastFlatness2" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastGravity2" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastGravity2</Data>
+            <Data name="Shoulder_HeavyBreastGravity2" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyBreastGravity2</Data>
+            <Data name="Shoulder_Lite_UnderBreastGravity2" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBreastGravity2</Data>
+            <Data name="BeltBreastGravity2" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastGravity2</Data>
+            <Data name="Belt_MetalBreastGravity2" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastHeight" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastHeight</Data>
+            <Data name="Shoulder_HeavyBreastHeight" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyBreastHeight</Data>
+            <Data name="Shoulder_Lite_UnderBreastHeight" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBreastHeight</Data>
+            <Data name="Shotgun_StrapBreastHeight" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapBreastHeight</Data>
+            <Data name="BeltBreastHeight" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastHeight</Data>
+            <Data name="Belt_MetalBreastHeight" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2BreastPerkiness" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2BreastPerkiness</Data>
+            <Data name="Shoulder_HeavyBreastPerkiness" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyBreastPerkiness</Data>
+            <Data name="Shoulder_Lite_UnderBreastPerkiness" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderBreastPerkiness</Data>
+            <Data name="BeltBreastPerkiness" target="Belt" local="true">MadMax2ArmorF.osd\BeltBreastPerkiness</Data>
+            <Data name="Belt_MetalBreastPerkiness" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalBreastPerkiness</Data>
+        </Slider>
+        <Slider name="ArmpitHeight" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2ArmpitHeight" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ArmpitHeight</Data>
+            <Data name="LeatherSleeveRolledUpArmpitHeight" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUpArmpitHeight</Data>
+            <Data name="BeltArmpitHeight" target="Belt" local="true">MadMax2ArmorF.osd\BeltArmpitHeight</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" default="0">
+            <Data name="CBBEForearmSize" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEForearmSize</Data>
+            <Data name="MotorcycleJacketF_2ForearmSize" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2ForearmSize</Data>
+            <Data name="LeatherSleeveRolledUpForearmSize" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUpForearmSize</Data>
+        </Slider>
+        <Slider name="NippleShape" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2NippleShape" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2NippleShape</Data>
+            <Data name="BeltNippleShape" target="Belt" local="true">MadMax2ArmorF.osd\BeltNippleShape</Data>
+        </Slider>
+        <Slider name="NippleTwistUp" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2NippleTwistUp" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2NippleTwistUp</Data>
+            <Data name="BeltNippleTwistUp" target="Belt" local="true">MadMax2ArmorF.osd\BeltNippleTwistUp</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" default="0">
+            <Data name="CBBE7B Upper" target="CBBE" local="true">MadMax2ArmorF.osd\CBBE7B Upper</Data>
+            <Data name="MotorcycleJacketF_27B Upper" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_27B Upper</Data>
+            <Data name="Shoulder_Heavy7B Upper" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_Heavy7B Upper</Data>
+            <Data name="Shoulder_Lite_Under7B Upper" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_Under7B Upper</Data>
+            <Data name="LeatherSleeveRolledUp7B Upper" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUp7B Upper</Data>
+            <Data name="Shotgun_Strap7B Upper" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_Strap7B Upper</Data>
+            <Data name="Belt7B Upper" target="Belt" local="true">MadMax2ArmorF.osd\Belt7B Upper</Data>
+            <Data name="Belt_Metal7B Upper" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_Metal7B Upper</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" default="0">
+            <Data name="CBBE7B Lower" target="CBBE" local="true">MadMax2ArmorF.osd\CBBE7B Lower</Data>
+            <Data name="MotorcycleJacketF_27B Lower" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_27B Lower</Data>
+            <Data name="LeatherPantsF7B Lower" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsF7B Lower</Data>
+            <Data name="Boots7B Lower" target="Boots" local="true">MadMax2ArmorF.osd\Boots7B Lower</Data>
+            <Data name="Boots_Straps7B Lower" target="Boots_Straps" local="true">MadMax2ArmorF.osd\Boots_Straps7B Lower</Data>
+            <Data name="Boots_Straps_metal7B Lower" target="Boots_Straps_metal" local="true">MadMax2ArmorF.osd\Boots_Straps_metal7B Lower</Data>
+            <Data name="Boots_Harness7B Lower" target="Boots_Harness" local="true">MadMax2ArmorF.osd\Boots_Harness7B Lower</Data>
+            <Data name="Boots_Harness_Metal7B Lower" target="Boots_Harness_Metal" local="true">MadMax2ArmorF.osd\Boots_Harness_Metal7B Lower</Data>
+            <Data name="Shotgun_Strap7B Lower" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_Strap7B Lower</Data>
+            <Data name="Belt7B Lower" target="Belt" local="true">MadMax2ArmorF.osd\Belt7B Lower</Data>
+            <Data name="Belt_Metal7B Lower" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_Metal7B Lower</Data>
+        </Slider>
+        <Slider name="MuscularChest" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2MuscularChest" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2MuscularChest</Data>
+            <Data name="LeatherPantsFMuscularChest" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFMuscularChest</Data>
+            <Data name="Shotgun_StrapMuscularChest" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapMuscularChest</Data>
+            <Data name="BeltMuscularChest" target="Belt" local="true">MadMax2ArmorF.osd\BeltMuscularChest</Data>
+            <Data name="Belt_MetalMuscularChest" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalMuscularChest</Data>
+        </Slider>
+        <Slider name="MuscularArms" invert="false" default="0">
+            <Data name="CBBEMuscularArms" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEMuscularArms</Data>
+            <Data name="MotorcycleJacketF_2MuscularArms" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2MuscularArms</Data>
+            <Data name="Shoulder_HeavyMuscularArms" target="Shoulder_Heavy" local="true">MadMax2ArmorF.osd\Shoulder_HeavyMuscularArms</Data>
+            <Data name="Shoulder_Lite_UnderMuscularArms" target="Shoulder_Lite_Under" local="true">MadMax2ArmorF.osd\Shoulder_Lite_UnderMuscularArms</Data>
+            <Data name="LeatherSleeveRolledUpMuscularArms" target="LeatherSleeveRolledUp" local="true">MadMax2ArmorF.osd\LeatherSleeveRolledUpMuscularArms</Data>
+            <Data name="BeltMuscularArms" target="Belt" local="true">MadMax2ArmorF.osd\BeltMuscularArms</Data>
+            <Data name="Belt_MetalMuscularArms" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalMuscularArms</Data>
+        </Slider>
+        <Slider name="MuscularButt" invert="false" default="0">
+            <Data name="MotorcycleJacketF_2MuscularButt" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2MuscularButt</Data>
+            <Data name="LeatherPantsFMuscularButt" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFMuscularButt</Data>
+            <Data name="Shotgun_StrapMuscularButt" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapMuscularButt</Data>
+            <Data name="BeltMuscularButt" target="Belt" local="true">MadMax2ArmorF.osd\BeltMuscularButt</Data>
+            <Data name="Belt_MetalMuscularButt" target="Belt_Metal" local="true">MadMax2ArmorF.osd\Belt_MetalMuscularButt</Data>
+        </Slider>
+        <Slider name="MuscularLegs" invert="false" default="0">
+            <Data name="CBBEMuscularLegs" target="CBBE" local="true">MadMax2ArmorF.osd\CBBEMuscularLegs</Data>
+            <Data name="MotorcycleJacketF_2MuscularLegs" target="MotorcycleJacketF_2" local="true">MadMax2ArmorF.osd\MotorcycleJacketF_2MuscularLegs</Data>
+            <Data name="LeatherPantsFMuscularLegs" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFMuscularLegs</Data>
+            <Data name="BootsMuscularLegs" target="Boots" local="true">MadMax2ArmorF.osd\BootsMuscularLegs</Data>
+            <Data name="Shotgun_StrapMuscularLegs" target="Shotgun_Strap" local="true">MadMax2ArmorF.osd\Shotgun_StrapMuscularLegs</Data>
+        </Slider>
+        <Slider name="FeetFeminine" invert="false" default="0">
+            <Data name="LeatherPantsFFeetFeminine" target="LeatherPantsF" local="true">MadMax2ArmorF.osd\LeatherPantsFFeetFeminine</Data>
+            <Data name="BootsFeetFeminine" target="Boots" local="true">MadMax2ArmorF.osd\BootsFeetFeminine</Data>
+            <Data name="Boots_StrapsFeetFeminine" target="Boots_Straps" local="true">MadMax2ArmorF.osd\Boots_StrapsFeetFeminine</Data>
+            <Data name="Boots_Straps_metalFeetFeminine" target="Boots_Straps_metal" local="true">MadMax2ArmorF.osd\Boots_Straps_metalFeetFeminine</Data>
+            <Data name="Boots_HarnessFeetFeminine" target="Boots_Harness" local="true">MadMax2ArmorF.osd\Boots_HarnessFeetFeminine</Data>
+            <Data name="Boots_Harness_MetalFeetFeminine" target="Boots_Harness_Metal" local="true">MadMax2ArmorF.osd\Boots_Harness_MetalFeetFeminine</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
